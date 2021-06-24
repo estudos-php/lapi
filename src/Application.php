@@ -7,8 +7,8 @@ namespace JustSteveKing\Lapi;
 use Illuminate\Events\EventServiceProvider;
 use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Log\LogServiceProvider;
-use Illuminate\Routing\RoutingServiceProvider;
 use Illuminate\Support\ServiceProvider;
+use JustSteveKing\Lapi\Routing\RoutingServiceProvider;
 
 class Application extends LaravelApplication
 {
